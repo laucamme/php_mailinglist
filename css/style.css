@@ -1,0 +1,47 @@
+@font-face 
+{
+	font-family: Raleway;
+	src: url(beta/typo/Raleway-Bold.ttf);
+}
+body {
+	background: url(../img/beta.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	text-align: center;
+		
+}
+p {
+	margin-top: 10%;
+}
+p {
+	color: #fff;
+}
+h2 {
+	font-family: 'Raleway';
+	margin-top: 20%;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+input[name="email"], textarea {
+	width: 30%;
+	font-size: 16px;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  	border-top: none; border-left: none;
+  	border-right: none;
+    background: none;
+}
+input:focus, textarea:focus {
+     outline:  none;
+}
+
+input[type="submit"] {
+  color: #000;
+  font-size: 16px;
+  border:0;
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 40px;
+}
